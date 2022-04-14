@@ -1,9 +1,10 @@
 // 1. Creación de un objeto con propiedades
 
 let myCar = new Object(); // Creación de un objeto
-myCar.make = 'Ford'; // Guardando un valor dentro del objeto creado
+myCar.make = 'Ford'; // Guardando un valor dentro del objeto creado usando .make se crea el apartado y se le da un valor 
 myCar.model = 'Mustang';
 myCar.year = 1969;
+myCar.owner= 'Ruz';
 
 console.log(myCar) // Imprimiendo objeto
 
