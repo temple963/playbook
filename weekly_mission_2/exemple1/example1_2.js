@@ -18,7 +18,7 @@ console.log(Object1.age)
 //-----------------------------------
 
 
-console.log(ajolonauta)
+
 
 const ajolonauta={
     name:"woopa",
@@ -30,4 +30,5 @@ const ajolonauta={
 }
 
 console.log("Ajolonauta")
-console.log(ajolonauta.sayhellowtoExplorers)
+console.log(ajolonauta)
+ajolonauta.sayhellowtoExplorers()
