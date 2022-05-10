@@ -25,10 +25,14 @@ const ajolonauta={
     mission:"Node.js",
     sayhellowtoExplorers:function(){
         console.log("Soy el Ajolonauta,Que onda!!")
-    }
+    },
+    tellmeMore:function(){
+        return`Ajolonauta: ${this.name}`// --This es para checar el objeto en el cual se esta y poder acceder a una propiedad 
+    }//return es para regresar el valor de
 
 }
 
-console.log("Ajolonauta")
-console.log(ajolonauta)
-ajolonauta.sayhellowtoExplorers()
+console.log("Ajolonauta") // Imprimiendo texto
+console.log(ajolonauta)// Iprimiendo objeto
+ajolonauta.sayhellowtoExplorers()//Llamando funciones
+ajolonauta.tellmeMore()//Llamando Funciones 
