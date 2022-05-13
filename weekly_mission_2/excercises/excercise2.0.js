@@ -14,7 +14,7 @@ const explorers = [
           exercisesFinished: true
         },
         frontend: {
-          isFinished: true,
+          isFinished: false,
           exercisesFinished: true
         }
       }
@@ -29,7 +29,7 @@ const explorers = [
       ],
       missions: {
         onboarding: {
-          isFinished: false,
+          isFinished: true,
           exercisesFinished: false
         },
         frontend: {
@@ -93,3 +93,7 @@ const explorers = [
    console.log ("Ejercicio 2.7")
    const SomeExcercise= explorers.some(my_first_some=>my_first_some.exercises_completed)
    console.log(SomeExcercise)
+
+   console.log("Ejercicio2.8")
+   const Everyexercise = explorers.every(my_first_every=>my_first_every.missions.onboarding.isFinished===true)
+   console.log(Everyexercise)
