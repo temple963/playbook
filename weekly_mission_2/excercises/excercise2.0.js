@@ -66,4 +66,12 @@ const explorers = [
     console.log("Ejercicio2.2")
    explorers.forEach(explorerstack=>console.log(explorerstack.stack))
 
-   
+   console.log("Ejercicio 2.3")
+   const Mylistmap = explorers.map(item => item.stack)
+   console.log(Mylistmap)
+   //map crea una lista a partir de lo que tu definas del objeto
+
+   console.log("Ejercicio2.4")
+   const FilterJs = explorers.filter(My_filter_js=>My_filter_js.stack.includes("js")) 
+   console.log(FilterJs)
+   // includes es para incluir el concepto de las listas filter es para filtrar 
