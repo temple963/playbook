@@ -82,3 +82,9 @@ const explorers = [
    console.log(first_explorer_cdmx)
    // Find es para buscar  en las listas 
    // cuando no hay manda undefined 
+
+   console.log("Ejercicio2.6")
+   const SumExcercises = explorers.reduce((acc,MySumExercises)=>acc+MySumExercises.exercises_completed,0)
+   //Cuando se utilzia la funcion reduce se utiliza en dos partes un acumulador (acc) y la lista 
+   //el valor de acc esel que tu defines al final 
+   console.log(SumExcercises)
