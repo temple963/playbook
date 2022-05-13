@@ -88,3 +88,8 @@ const explorers = [
    //Cuando se utilzia la funcion reduce se utiliza en dos partes un acumulador (acc) y la lista 
    //el valor de acc esel que tu defines al final 
    console.log(SumExcercises)
+
+
+   console.log ("Ejercicio 2.7")
+   const SomeExcercise= explorers.some(my_first_some=>my_first_some.exercises_completed)
+   console.log(SomeExcercise)
